@@ -17,12 +17,13 @@
     </style>
 </head>
 <body>
-    <h1>Hello World!</h1>
+    <h1 id="headerName">Hello World!</h1>
     <p>Já me livrei da maldição</p>
     <script>
-        window.alert('Minha primeira mensagem');
-        window.confirm('Está gostando de JS?');
-        nome = window.prompt('Qual é seu nome?')
+        n1 = Number(prompt('Digite um número: '))
+        n2 = Number(prompt('Digite outro número: '))
+        var s = n1 + n2
+        alert(`A soma entre ${n1} e ${n2} é igual a ${s}`)
     </script>
 </body>
 </html>
